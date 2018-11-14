@@ -7,19 +7,22 @@
 // AWS Mobile Hub Project Constants
 const awsmobile = {
     'aws_app_analytics': 'enable',
-    'aws_cognito_identity_pool_id': 'ap-southeast-2:51242453-275d-4b84-995d-d0a29becf1e6',
+    'aws_cognito_identity_pool_id': 'ap-southeast-2:14e1dc2e-31f1-4cac-84c8-74f5bbb782c5',
     'aws_cognito_region': 'ap-southeast-2',
     'aws_content_delivery': 'enable',
-    'aws_content_delivery_bucket': 'quizesweb-hosting-mobilehub-336633224',
+    'aws_content_delivery_bucket': 'quizesios-hosting-mobilehub-70694695',
     'aws_content_delivery_bucket_region': 'ap-southeast-2',
     'aws_content_delivery_cloudfront': 'enable',
-    'aws_content_delivery_cloudfront_domain': 'd1pgqs3q10yg7w.cloudfront.net',
-    'aws_mobile_analytics_app_id': 'a84c3b2f3ec44e2e8cae288f6c854940',
+    'aws_content_delivery_cloudfront_domain': 'drio1ru6308oa.cloudfront.net',
+    'aws_dynamodb': 'enable',
+    'aws_dynamodb_all_tables_region': 'ap-southeast-2',
+    'aws_dynamodb_table_schemas': [{"tableName":"quizesios-mobilehub-70694695-Questions","attributes":[{"name":"userId","type":"S"},{"name":"qDateAdded","type":"N"},{"name":"qAnswer","type":"BOOL"},{"name":"qId","type":"S"},{"name":"qImage","type":"S"},{"name":"qText","type":"S"}],"indexes":[{"indexName":"userId-qDateAdded","hashKey":"userId","rangeKey":"qDateAdded"}],"region":"ap-southeast-2","hashKey":"userId","rangeKey":"qDateAdded"}],
+    'aws_mobile_analytics_app_id': 'c1aca3f377ce4ce190b49be73c67f692',
     'aws_mobile_analytics_app_region': 'us-east-1',
-    'aws_project_id': '12be5feb-5efe-4edc-8ee9-cbf5f5330548',
-    'aws_project_name': 'Quizes-Web',
+    'aws_project_id': '09d34b43-3fe4-4b46-9e78-23466af80dba',
+    'aws_project_name': 'Quizes-iOS',
     'aws_project_region': 'ap-southeast-2',
-    'aws_resource_name_prefix': 'quizesweb-mobilehub-336633224',
+    'aws_resource_name_prefix': 'quizesios-mobilehub-70694695',
 }
 
 export default awsmobile;
