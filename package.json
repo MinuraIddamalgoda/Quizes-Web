@@ -1,0 +1,23 @@
+{
+  "name": "quizes-web",
+  "version": "0.1.0",
+  "description": "The web interface for the Quizes game",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinuraIddamalgoda/Quizes-Web.git"
+  },
+  "author": "Minura Iddamalgoda",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/MinuraIddamalgoda/Quizes-Web/issues"
+  },
+  "homepage": "https://github.com/MinuraIddamalgoda/Quizes-Web#readme"
+}
